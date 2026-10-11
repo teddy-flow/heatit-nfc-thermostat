@@ -1,0 +1,28 @@
+# Official app and anything decompiled from it – never commit these
+*.xapk
+*.apk
+*.apks
+*.aab
+decompiled/
+jadx-out/
+out/
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+.kotlin/
+captures/
+*.keystore
+*.jks
+
+# IDEs and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
