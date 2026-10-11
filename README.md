@@ -100,6 +100,12 @@ Issues and pull requests are welcome, especially:
 
 Please run `./gradlew testDebugUnitTest` and `python tools/heatit_nfc.py selftest` before opening a pull request.
 
+## How this was made
+
+This is a **vibe-coded project**, made possible by [Claude](https://claude.ai) (Anthropic) running in Claude Code. Claude decompiled the official app, worked out the NFC protocol, and wrote the documentation, the Android app and the Python tool. I directed the work and tested it on my own thermostat.
+
+Treat the code with that in mind: it has unit tests and has read a real thermostat successfully, but it hasn't had a traditional line-by-line human review. Bug reports and reviews are very welcome.
+
 ## Legal
 
 This repository contains no code or assets from the official app. The protocol description is the result of independent analysis for interoperability. The official APK must not be committed here (it is listed in `.gitignore`).
